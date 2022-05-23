@@ -1,0 +1,49 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYXRoZXJ8ZW58MHx8MHx8&w=1000&q=80);
+}
+.btn-primary {
+  color: #fff;
+  background-color: #117791;
+  border-color: #6dc4d2;
+  width: 110px;
+}
+.container {
+  border: 1px solid #d1effc;
+  border-radius: 10px 10px;
+  dimmensions: 772px 330px;
+  background-color: grey;
+  opacity: 0.75;
+}
+
+.card {
+  text-align: center;
+  border: none;
+  color: black;
+  opacity: 1;
+}
+.card-body {
+  opacity: 0.4;
+  background-color: #fefbe7;
+}
+.form-rounded {
+  border-radius: 20px;
+  margin-bottom: 15px;
+  width: 640px;
+  background: white;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+li {
+  list-style: none;
+  color: black;
+}
+.weekday-forecast {
+  text-align: center;
+}
+
+h5 {
+  color: black;
+}
