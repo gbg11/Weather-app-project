@@ -10,7 +10,6 @@ body {
 .container {
   border: 1px solid #d1effc;
   border-radius: 10px 10px;
-  dimmensions: 772px 330px;
   background-color: grey;
   opacity: 0.75;
 }
