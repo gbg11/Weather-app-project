@@ -46,3 +46,8 @@ li {
 h5 {
   color: black;
 }
+.codedBy {
+  display: inline;
+  text-align: center;
+  padding-left: 250px;
+}
