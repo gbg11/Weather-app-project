@@ -12,6 +12,7 @@ body {
   border-radius: 10px 10px;
   background-color: grey;
   opacity: 0.75;
+  max-width: 850px;
 }
 
 .card {
