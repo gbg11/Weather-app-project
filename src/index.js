@@ -16,7 +16,7 @@ let months = [
   "April",
   "May",
   "June",
-  "uly",
+  "July",
   "August",
   "September",
   "October",
