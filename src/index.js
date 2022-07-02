@@ -67,5 +67,5 @@ inCity.addEventListener("submit", getCity);
 function showCityTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let cityTemp = document.querySelector("#temperature");
-  cityTemp.innerHTML = temperature;
+  cityTemp.innerHTML = `${temperature} °F`;
 }
