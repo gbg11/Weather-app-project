@@ -7,16 +7,17 @@ body {
   border-color: #6dc4d2;
   width: 110px;
 }
-.container {
+.Weather-App-wrapper {
   border: 1px solid #d1effc;
   border-radius: 10px 10px;
+
   background-color: grey;
   opacity: 0.75;
   max-width: 850px;
 }
 
 .card {
-  text-align: center;
+  padding: 10px;
   border: none;
   color: black;
   opacity: 1;
@@ -25,10 +26,14 @@ body {
   opacity: 0.4;
   background-color: #fefbe7;
 }
+.search-form {
+  max-width: 300px;
+}
 .form-rounded {
   border-radius: 20px;
   margin-bottom: 15px;
   width: 640px;
+
   background: white;
   color: black;
   padding: 10px;
@@ -40,15 +45,19 @@ li {
   list-style: none;
   color: black;
 }
-.weekday-forecast {
-  text-align: center;
+li::first-letter {
+  text-transform: capitalize;
 }
 
-h5 {
+h1 {
   color: black;
+  padding-left: 30px;
 }
 .codedBy {
   display: inline;
   text-align: center;
-  padding-left: 550px;
+  padding-left: 250px;
+}
+.col {
+  padding-left: 0px;
 }
